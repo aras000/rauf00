@@ -1,0 +1,29 @@
+.hjk{
+    background-color: blueviolet;
+    height: 700px;
+border-collapse: collapse;
+text-align: center;
+font-size: 21px;
+width: 100%;
+
+}
+th,td{
+border: 12px groove black;
+padding: 20px;
+}
+th{
+    background-color: rgb(54, 15, 15);
+    color: rgb(160, 145, 127);
+}
+tr:nth-child(even){
+    background-color: lightgreen;
+}
+tr:nth-child(odd){
+    background-color: rgb(15, 87, 15);
+}
+tr:hover{
+background-color: lightyellow;
+color: rgb(240, 51, 51);
+font-size: 30px;
+
+}
